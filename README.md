@@ -133,46 +133,6 @@ Real-time Socket.io architecture:
 - Automatic scoring and leaderboards
 - Real-time state synchronization
 
-## Project Structure
-
-\`\`\`
-roastme/
-├── backend/
-│   ├── src/
-│   │   ├── services/
-│   │   │   ├── mood/          # Mood detection
-│   │   │   ├── personality/   # Trait analysis
-│   │   │   ├── roast/         # Roast generation
-│   │   │   ├── advice/        # Life advice
-│   │   │   └── multiplayer/   # Battle system
-│   │   ├── routes/            # API endpoints
-│   │   ├── sockets/           # WebSocket handlers
-│   │   └── server.ts
-│   └── package.json
-├── frontend/
-│   ├── app/                   # Next.js app router
-│   │   ├── layout.tsx         # Tambo Provider
-│   │   └── page.tsx           # Main UI
-│   ├── components/            # Shared components
-│   ├── features/              # Feature modules
-│   │   ├── chat/              # Tambo chat interface
-│   │   ├── roast/
-│   │   ├── personality/
-│   │   ├── radar/
-│   │   ├── advice/
-│   │   ├── sigma/
-│   │   └── games/
-│   ├── hooks/                 # Custom hooks
-│   ├── lib/
-│   │   ├── tambo/             # Tambo integration
-│   │   └── socket/            # Socket client
-│   ├── store/                 # Zustand stores
-│   └── package.json
-└── shared/
-    ├── types/                 # TypeScript types
-    └── constants/             # Shared constants
-\`\`\`
-
 ## Key Features
 
 ### Real-Time Mood Analysis
