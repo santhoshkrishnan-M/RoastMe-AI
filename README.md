@@ -1,9 +1,28 @@
-# RoastMe AI - Smart Funny Personality Analyzer
-## Powered by Tambo SDK
+# 🔥 RoastMe AI - Smart Funny Personality Analyzer
 
-Production-grade full-stack web application with real-time mood detection, dynamic UI switching powered by Tambo SDK, and multiplayer roast battles.
+<div align="center">
 
-## Features
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+### Powered by Tambo SDK 🚀
+
+*Production-grade full-stack web application with real-time mood detection, dynamic UI switching powered by Tambo SDK, and multiplayer roast battles.*
+
+[Features](#features) • [Quick Start](#setup-instructions) • [Documentation](#documentation) • [Contributing](#contributing)
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+> *Coming soon - Add your screenshots here!*
+
+## ✨ Features
 
 - 🤖 **Tambo SDK Integration** - Official Tambo AI React SDK for intelligent chat
 - 🧠 **Real-time Mood Detection** - Rule-based engine analyzing every message
@@ -231,24 +250,60 @@ For production deployment with all Tambo features:
 npx tambo full-send
 \`\`\`
 
-## Documentation
+## 📚 Documentation
 
 - [Tambo Integration Guide](./TAMBO_INTEGRATION.md)
-- [Architecture Overview](./docs/ARCHITECTURE.md)
+- [Contributing Guidelines](./CONTRIBUTING.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Security Policy](./SECURITY.md)
+- [Changelog](./CHANGELOG.md)
 
-## Contributing
+## 🤝 Contributing
 
-This is a hackathon-ready project built with:
-- Production-grade architecture
-- Clean code structure
-- Real-time capabilities
-- Tambo SDK integration
-- Free and open-source stack
+Contributions are welcome! Please read our [Contributing Guidelines](./CONTRIBUTING.md) before submitting a Pull Request.
 
-## License
+### Quick Start for Contributors
 
-MIT
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## 🔒 Security
+
+Found a security vulnerability? Please read our [Security Policy](./SECURITY.md) for responsible disclosure guidelines.
+
+## 🙏 Acknowledgments
+
+- [Tambo AI](https://tambo.ai) for the amazing SDK
+- All contributors who help improve this project
+- The open-source community
+
+## 📞 Support
+
+- 📫 Open an [issue](https://github.com/santhoshkrishnan-M/RoastMe-AI/issues) for bug reports or feature requests
+- ⭐ Star this repository if you find it helpful
+- 🔄 Fork and contribute to make it better
+
+## 🎯 Project Status
+
+![CI Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 ---
 
-**Built with Tambo SDK** • Real-time Mood Detection • Dynamic UI • Multiplayer Battles
+<div align="center">
+
+**Built with ❤️ and Tambo SDK** • Real-time Mood Detection • Dynamic UI • Multiplayer Battles
+
+[Report Bug](https://github.com/santhoshkrishnan-M/RoastMe-AI/issues) • [Request Feature](https://github.com/santhoshkrishnan-M/RoastMe-AI/issues) • [Contribute](./CONTRIBUTING.md)
+
+</div>
