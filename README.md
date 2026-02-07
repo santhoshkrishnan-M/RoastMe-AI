@@ -198,20 +198,46 @@ cd frontend && npm run dev
 
 ## Production Deployment
 
-1. Set environment variables
-2. Build frontend: `npm run build`
-3. Build backend: `npm run build`
-4. Start servers in production mode
+### Deploy to Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/roastme)
+
+**Quick Deploy:**
+```bash
+npm i -g vercel
+vercel --prod
+```
+
+📖 **[Full Deployment Guide](./VERCEL_DEPLOYMENT.md)** - Comprehensive instructions for Vercel deployment
+
+📋 **[Quick Deploy Guide](./DEPLOY.md)** - One-page quick reference
+
+### Key Points:
+- ✅ Next.js frontend auto-deployed to Vercel
+- ✅ API routes converted to serverless functions
+- ⚠️ WebSocket features require separate backend deployment (Railway/Render)
+- 🔧 Configure environment variables in Vercel dashboard
+
+### Alternative Deployment Options:
+
+**Backend (for WebSocket support):**
+- [Railway](https://railway.app) - Easy Node.js deployment
+- [Render](https://render.com) - Free tier available
+- [Fly.io](https://fly.io) - Global edge deployment
+
+See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for detailed instructions.
 
 ## Tambo Full-Send
 
 For production deployment with all Tambo features:
-\`\`\`bash
+```bash
 npx tambo full-send
-\`\`\`
+```
 
 ## 📚 Documentation
 
+- [Vercel Deployment Guide](./VERCEL_DEPLOYMENT.md) - Complete Vercel deployment instructions
+- [Quick Deploy](./DEPLOY.md) - One-page deployment reference
 - [Tambo Integration Guide](./TAMBO_INTEGRATION.md)
 - [Contributing Guidelines](./CONTRIBUTING.md)
 - [Code of Conduct](./CODE_OF_CONDUCT.md)

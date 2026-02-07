@@ -1,0 +1,35 @@
+{
+  "name": "roastme",
+  "version": "1.0.0",
+  "description": "AI-powered roasting app with mood detection and personality analysis",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:frontend",
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd backend && npm run start",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel",
+    "vercel:check": "node scripts/vercel-check.js"
+  },
+  "keywords": [
+    "nextjs",
+    "ai",
+    "roast",
+    "personality",
+    "mood-detection"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
